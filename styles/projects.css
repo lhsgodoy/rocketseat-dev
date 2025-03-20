@@ -1,0 +1,50 @@
+#container-projects {
+    background-color: var(--gray-200);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    border: 1px solid green;
+}
+
+#tittle-projects {
+    width: 60%;
+    height: 5%;
+    margin-inline: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    border: 1px solid red; 
+    text-align: center;
+    
+            h1 {
+                font: var(--tittle-lg);
+                color: var(--gray-500)
+            } }
+#projects {
+    width: 60%;
+    height: 80%;
+    border: 1px solid yellow;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1vh;
+
+}
+
+.container-img1,
+.container-img2,
+.container-img3,
+.container-img4,
+.container-img5,
+.container-img6
+
+{
+    border: 1px solid red;
+    height: 35vh;
+    width: 35vh;
+    color:white;
+    margin: auto;
+    img {
+        height: 60%;
+        width: 100%;
+    }
+}
