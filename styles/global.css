@@ -18,7 +18,7 @@
     --gray-500: #c0c4ce;
     --gray-600: #e2e4e9;
     
-    --font-family-asap: 'Asap', sans-serif;
+    --font-family-asap:'Asap', sans-serif;
     --font-family-inconsolata: 'Inconsolata', sans-serif;
     --font-family-maven: 'Maven Pro', sans-serif;
 
@@ -31,4 +31,7 @@
      --text-md: 400 16px/140% var(--font-family-maven);
      --text-sm: 400/14px/140% var(--font-family-maven) 
 }
+
+.red {
+    color: var(--primary-red);
 
