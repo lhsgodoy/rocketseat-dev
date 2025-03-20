@@ -1,0 +1,59 @@
+#main {
+    background-image: url(../assets/images/Background_Intro.png);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+#container-info {
+    width: 60%;
+    height: 500px;
+    margin-inline: auto;
+    margin-block: 10vh;
+    
+}
+
+#info-img {
+    text-align: center;
+    height: 40%; 
+    margin: 1rem;
+    img {
+        margin: 5%
+    }
+}
+    
+#info {
+    text-align: center;
+    height: 30%;
+    margin: 1rem;
+    h1{
+        font: var(--title-lg);
+        color: var(--gray-600);
+    }   
+}
+
+ #info span:nth-child(3) {
+    color: white;
+    font: var(--text-sm);
+}
+
+#info span:nth-child(1) {
+    color: white;
+    font: var(--subtitle);
+    
+}
+
+#info2 {
+    margin: 1rem;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     span {
+        display: inline-block;
+        font: var(--text-md);
+        color: white;
+     }
+   
+}
+
