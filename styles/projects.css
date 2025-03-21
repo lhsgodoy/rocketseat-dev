@@ -3,16 +3,14 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    border: 1px solid green;
 }
 
 #tittle-projects {
     width: 60%;
     height: 5%;
     margin-inline: auto;
-    margin-top: 5vh;
+    padding: 3vh;
     margin-bottom: 2vh;
-    border: 1px solid red; 
     text-align: center;
     
             h1 {
@@ -22,11 +20,10 @@
 #projects {
     width: 60%;
     height: 80%;
-    border: 1px solid yellow;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1vh;
+    padding: 3vh;
         p {
             color: var(--gray-500);
             font: var(--text-s);
@@ -49,7 +46,6 @@
 
 {
     background-color: var(--gray-300);
-    border: 1px solid red;
     height: 35vh;
     width: 35vh;
     color:white;

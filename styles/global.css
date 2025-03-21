@@ -34,4 +34,10 @@
 
 .red {
     color: var(--primary-red);
+    font: var(--title-md);
+}
 
+.white {
+    color: var(--gray-600);
+    font: var(--title-md);
+}
